@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+clinic.db
+.env
+runs/*
+!runs/.gitkeep
+.venv/
+env.claude
+.claude.env
+*.csv.DS_Store
