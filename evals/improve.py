@@ -168,8 +168,8 @@ def verify_candidate(
     and decide promote/reject.
 
     This used to be written twice: once in a CLI script, once in the Streamlit
-    UI. Every fix to it (regression confirmation, the policy-fingerprint guard,
-    not persisting an unverified rule) had to be remembered and re-applied to
+    UI. Every fix to it (regression confirmation, not persisting an unverified
+    rule) had to be remembered and re-applied to
     both, and more than once it wasn't -- a good rule got rejected in the UI by
     a bug that had already been fixed in the CLI. The CLI was deleted rather
     than kept in sync: it was a second reimplementation of what the Streamlit

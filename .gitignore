@@ -8,3 +8,4 @@ runs/*
 env.claude
 .claude.env
 *.csv.DS_Store
+LOOM.md
